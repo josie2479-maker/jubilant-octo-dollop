@@ -18,7 +18,7 @@ Each directory holds one `SKILL.md`. Copy the folder into wherever your assistan
 
 They're written for Claude, but nothing in them is Claude-specific beyond the file format. The methodology carries over.
 
-**Take one or take all of them.** Every skill here works on its own, with a single exception noted below. Where one references another it is telling you which skill fits a given question — a boundary note, not a dependency. Each file also ends with a **Related skills** section saying exactly what, if anything, it expects alongside it, so a single-file copy still answers the question.
+**Take one or take all of them.** Every skill here works on its own. Where one references another it is telling you which skill fits a given question — a boundary note, not a dependency. Each file also ends with a **Related skills** section saying exactly what, if anything, it expects alongside it, so a single-file copy still answers the question.
 
 ## What's here
 
@@ -34,10 +34,8 @@ They're written for Claude, but nothing in them is Claude-specific beyond the fi
 | `screenshot-fed-status-tracker` | Tracking a device or service's status over time when there's no legitimate API to read it from | Yes |
 | `consumer-purchase-research` | Structured research for a purchase decision or financial-product comparison | Yes |
 | `price-monitor` | Recurring price checks against a stored baseline, with explicit buy/hold/watch signals | Yes |
-| `discount-code-hunter` | Finds candidate discount codes, then actually tests them at checkout instead of trusting a list | Yes |
-| `desktop-commander-extras` | Chunked-write and Windows REPL survival techniques | **No** — companion to the Desktop Commander plugin skills |
 
-**The shopping three** — `consumer-purchase-research`, `price-monitor`, `discount-code-hunter` — cross-reference each other to say which one answers which question: *what should I buy*, *has it dropped yet*, *is there a code*. Any one alone is still complete.
+**The shopping pair** — `consumer-purchase-research` and `price-monitor` — cross-reference each other to say which one answers which question: *what should I buy*, versus *has it dropped yet*. Either one alone is still complete.
 
 Some skills mention capabilities this pack doesn't include — a scheduler, a reliable-fetch layer, a spreadsheet writer, a skill-authoring skill. Those are noted as optional pairings in each file. Nothing here breaks without them.
 
