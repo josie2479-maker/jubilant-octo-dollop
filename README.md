@@ -18,6 +18,44 @@ Each directory holds one `SKILL.md`. Copy the folder into wherever your assistan
 
 They're written for Claude, but nothing in them is Claude-specific beyond the file format. The methodology carries over.
 
+**Take one or take all of them.** Every skill here works on its own, with a single exception noted below. Where one references another it is telling you which skill fits a given question — a boundary note, not a dependency. Each file also ends with a **Related skills** section saying exactly what, if anything, it expects alongside it, so a single-file copy still answers the question.
+
+## What's here
+
+| Skill | What it does | Standalone? |
+|---|---|---|
+| `council-of-agents` | Convenes independent AI agents to debate a genuinely ambiguous, high-stakes question under a hard round cap | Yes — wants a second, non-Claude model |
+| `pec` | The Plain-English Challenge Protocol: an 8-test stress-test for plans, architectures, and proposals | Yes |
+| `project-foreman` | Runs large multi-batch projects in staged passes with QC checkpoints that stop on ambiguity rather than guessing | Yes |
+| `source-hybrid-reconciliation` | For deliverables that deliberately merge two source specifications, and the reconciliation note that has to travel with them | Yes |
+| `task-feeds-task-handoff` | Designing recurring tasks that hand data to each other without one failure silently poisoning the next | Yes |
+| `task-observer` | A background layer that notices skill-improvement opportunities during real work and logs them for later review | Yes |
+| `resumable-web-index-crawl` | Builds a resumable, selectively-retrievable index of a large documentation site without bulk-downloading it | Yes |
+| `screenshot-fed-status-tracker` | Tracking a device or service's status over time when there's no legitimate API to read it from | Yes |
+| `consumer-purchase-research` | Structured research for a purchase decision or financial-product comparison | Yes |
+| `price-monitor` | Recurring price checks against a stored baseline, with explicit buy/hold/watch signals | Yes |
+| `discount-code-hunter` | Finds candidate discount codes, then actually tests them at checkout instead of trusting a list | Yes |
+| `desktop-commander-extras` | Chunked-write and Windows REPL survival techniques | **No** — companion to the Desktop Commander plugin skills |
+
+**The shopping three** — `consumer-purchase-research`, `price-monitor`, `discount-code-hunter` — cross-reference each other to say which one answers which question: *what should I buy*, *has it dropped yet*, *is there a code*. Any one alone is still complete.
+
+Some skills mention capabilities this pack doesn't include — a scheduler, a reliable-fetch layer, a spreadsheet writer, a skill-authoring skill. Those are noted as optional pairings in each file. Nothing here breaks without them.
+
+## Not affiliated with Anthropic
+
+This is an independent personal project. It is **not affiliated with, endorsed by, sponsored by, or reviewed by Anthropic**. "Claude" and "Anthropic" are trademarks of Anthropic, PBC, used here only to describe what these skills are written for.
+
+Nothing here is official documentation. For that, see Anthropic's own.
+
+## Scope and support
+
+These are personal working tools, published because the methodology may be useful to others — not a supported product.
+
+- Provided **as-is, without warranty**. Review anything before relying on it, especially where it touches health, money, or files you cannot recreate.
+- Updated when the private source library changes, which is irregular. Treat any copy as a **snapshot**.
+- Issues describing a genuine gap in a methodology are welcome and do get read, but **there is no guaranteed response time** and no commitment to fix, maintain, or support.
+- Some skills reference tools, file layouts, or conventions specific to how they were built. Where a path or setup detail appears, substitute your own.
+
 ## Feedback
 
 If a skill's *methodology* has a gap — a step that doesn't generalise, an edge case it mishandles — that's worth raising as an issue. If an assistant simply failed to follow one, that's usually a different problem.
@@ -32,4 +70,6 @@ You may share and adapt this material for any purpose, including commercially, p
 
 ## About this repository
 
-This is a **publication mirror**, updated on a monthly cadence from a private working library. It's one-way: nothing lives only here, and nothing is edited here directly. Pull requests that change a skill's content are unlikely to be merged as-is, but issues describing the problem are welcome and do get folded back into the source.
+This is a **publication mirror**, updated from a private working library. It's one-way: nothing lives only here, and nothing is edited here directly. Pull requests that change a skill's content are unlikely to be merged as-is, since changes have to be made upstream — but issues describing the problem are welcome and do get folded back into the source when they land.
+
+Some skills touch health, mental-health, or financial topics. Those carry their own disclaimers; please read them rather than relying on this page.
