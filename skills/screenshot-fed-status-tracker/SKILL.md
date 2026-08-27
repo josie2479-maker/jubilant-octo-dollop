@@ -5,7 +5,7 @@ description: "Use when an app, device, or vehicle exposes status data with no le
 
 # Screenshot-Fed Status Tracker
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-08-17
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

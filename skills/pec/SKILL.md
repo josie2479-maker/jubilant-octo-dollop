@@ -5,7 +5,7 @@ description: "The Plain-English Challenge Protocol (PEC) — a structured stress
 
 # Plain-English Challenge Protocol (PEC)
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-05-06
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

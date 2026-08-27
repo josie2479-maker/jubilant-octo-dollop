@@ -3,10 +3,9 @@ name: "project-foreman"
 description: "Plan and run large, multi-batch projects — digital organization work (migrations, cleanups, deduplication, reorganization) as well as multi-session greenfield builds — using a foreman/execution/QC structure: a foreman that stages the plan, execution passes that work in small paced batches, and a QC pass that checks each batch and flags-and-stops on anything ambiguous rather than auto-resolving it. Use whenever a project is too large or risky for one continuous pass — many items, an external API/rate limit, irreversible actions (posting, deleting, moving files), or a track record of needing careful human review. Also covers from-scratch builds needing per-item confidence classification and human checkpoints (e.g. recipe extraction with an allergen hard-filter). Trigger on phrases like \"big cleanup project,\" \"migrate/organize all my X,\" \"go through my whole library,\" or any digital organization or multi-batch build task with hundreds+ of items."
 ---
 
-
 # Project Foreman
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-07-02
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

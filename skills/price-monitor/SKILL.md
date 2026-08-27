@@ -5,7 +5,7 @@ description: "Recurring price monitoring workflow for a defined product list. Us
 
 # Price Monitor
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-04-30
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

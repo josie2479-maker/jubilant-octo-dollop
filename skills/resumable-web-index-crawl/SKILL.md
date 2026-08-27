@@ -5,7 +5,7 @@ description: "Build an efficient, resumable link index of a large multi-page web
 
 # Resumable Web Index Crawl
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-07-22
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

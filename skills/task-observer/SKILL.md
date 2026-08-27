@@ -5,7 +5,7 @@ description: "Monitors task execution for skill improvement opportunities. Use t
 
 # Task Observer — Continuous Skill Discovery & Improvement
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: ~2026-06 (estimated; in use by 2026-06-22)
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.
@@ -709,3 +709,4 @@ This skill is self-contained — nothing else in this pack is required.
 **Pairs well, not included here:**
 - A skill-authoring skill. This one identifies *what* to build or improve and hands the work off; it does not write skill files itself.
 - A scheduling capability, for the recurring comprehensive review. Without one, the skill falls back to an in-session trigger, which it documents.
+

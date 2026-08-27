@@ -5,7 +5,7 @@ description: "Use whenever a task deliberately merges two source specifications 
 
 # Source Hybrid Reconciliation
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-08-17
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.
@@ -151,3 +151,4 @@ If any answer is no, fix it before delivering.
 ## Related skills
 
 This skill is self-contained — nothing else in this pack is required.
+

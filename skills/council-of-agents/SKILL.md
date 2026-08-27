@@ -5,7 +5,7 @@ description: "Convene a small council of independent AI agents to resolve a genu
 
 # Council of Agents
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: ~2026-08 (estimated; in use by 2026-08-17)
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.

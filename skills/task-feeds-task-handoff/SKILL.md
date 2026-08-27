@@ -5,7 +5,7 @@ description: "Use when designing, splitting, or auditing recurring or scheduled 
 
 # Task-Feeds-Task Handoff
 
-**Created by Josie Lagarde, designed with Claude (Cowork)**
+**Created by Josie Lagarde, designed with Claude (Cowork)** · Created: 2026-08-17
 
 **License:** Released under CC BY 4.0 — free to use, adapt, and share with
 attribution.
