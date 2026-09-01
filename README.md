@@ -34,6 +34,9 @@ They're written for Claude, but nothing in them is Claude-specific beyond the fi
 | `screenshot-fed-status-tracker` | Tracking a device or service's status over time when there's no legitimate API to read it from | Yes |
 | `consumer-purchase-research` | Structured research for a purchase decision or financial-product comparison | Yes |
 | `price-monitor` | Recurring price checks against a stored baseline, with explicit buy/hold/watch signals | Yes |
+| `critical-thinking-walkthrough` | A six-lens pass over information someone else handed you, ending in a stated position and a smallest next step | Yes |
+
+**The review pair** — `pec` and `critical-thinking-walkthrough` — split by what you're holding: `pec` attacks a plan *you* own and are committed to; `critical-thinking-walkthrough` interrogates a claim, article, or pitch *someone else* handed you before you have a position on it. Either one alone is still complete.
 
 **The shopping pair** — `consumer-purchase-research` and `price-monitor` — cross-reference each other to say which one answers which question: *what should I buy*, versus *has it dropped yet*. Either one alone is still complete.
 
